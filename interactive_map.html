@@ -1,0 +1,2540 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6529b24d94ae65a885d19702a823873d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6529b24d94ae65a885d19702a823873d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6529b24d94ae65a885d19702a823873d = L.map(
+                "map_6529b24d94ae65a885d19702a823873d",
+                {
+                    center: [34.0522, -118.2437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_accf63fc83946a7b7e7b6932e5539dc8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_accf63fc83946a7b7e7b6932e5539dc8.addTo(map_6529b24d94ae65a885d19702a823873d);
+        
+    
+            var marker_cluster_2681843ed051e43370a2cb37db28c9b5 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_16ab51c849229e1233eb4c1d9090d271 = L.marker(
+                [34.032732335897734, -118.24022443889102],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_34f476e787772658f2b6281ec6140f50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16ab51c849229e1233eb4c1d9090d271.setIcon(icon_34f476e787772658f2b6281ec6140f50);
+        
+    
+        var popup_4849011d256d9d97f650998530adde72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4779ff4e27eaf3fa515783c1846c9aad = $(`<div id="html_4779ff4e27eaf3fa515783c1846c9aad" style="width: 100.0%; height: 100.0%;"><b>Name:</b> American Apparel<br><b>Type:</b> Unisex - greater focus on Womens<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_4849011d256d9d97f650998530adde72.setContent(html_4779ff4e27eaf3fa515783c1846c9aad);
+            
+        
+
+        marker_16ab51c849229e1233eb4c1d9090d271.bindPopup(popup_4849011d256d9d97f650998530adde72)
+        ;
+
+        
+    
+    
+            var marker_6abe93bce2dd5613768c263bf40a52ab = L.marker(
+                [34.0057376, -118.1525356],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_9b338e89590a0a39e78c0c7b82b5959b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6abe93bce2dd5613768c263bf40a52ab.setIcon(icon_9b338e89590a0a39e78c0c7b82b5959b);
+        
+    
+        var popup_15f4b497ed9b40d579d8e1f1c22aef82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6ba4587ef4bcd03ae81eb1f25126a8a = $(`<div id="html_a6ba4587ef4bcd03ae81eb1f25126a8a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Calvin Klein<br><b>Type:</b> Mens/Womens<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_15f4b497ed9b40d579d8e1f1c22aef82.setContent(html_a6ba4587ef4bcd03ae81eb1f25126a8a);
+            
+        
+
+        marker_6abe93bce2dd5613768c263bf40a52ab.bindPopup(popup_15f4b497ed9b40d579d8e1f1c22aef82)
+        ;
+
+        
+    
+    
+            var marker_e12bf67a765c1b7884dbb8afd3e20a2d = L.marker(
+                [34.058913000000004, -118.41934501932694],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_f63ccb8f89750d4dcef15d624a471db1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e12bf67a765c1b7884dbb8afd3e20a2d.setIcon(icon_f63ccb8f89750d4dcef15d624a471db1);
+        
+    
+        var popup_fdc9d3a85c14075e5a46bed3f899f0bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ffcebaacab275fb4a7b3ef89c4fc843 = $(`<div id="html_1ffcebaacab275fb4a7b3ef89c4fc843" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Levi Strauss & Co<br><b>Type:</b> Mens/Womens<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_fdc9d3a85c14075e5a46bed3f899f0bb.setContent(html_1ffcebaacab275fb4a7b3ef89c4fc843);
+            
+        
+
+        marker_e12bf67a765c1b7884dbb8afd3e20a2d.bindPopup(popup_fdc9d3a85c14075e5a46bed3f899f0bb)
+        ;
+
+        
+    
+    
+            var marker_2bea79a53e5dce05b49ee169447ddb20 = L.marker(
+                [34.016441343948316, -118.49687626005374],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_95bba3f6d3a8c48793255d88cacbc9f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bea79a53e5dce05b49ee169447ddb20.setIcon(icon_95bba3f6d3a8c48793255d88cacbc9f4);
+        
+    
+        var popup_483bea74fc5372adfef1b1614adb8614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62fd62dd981cfcb7de1fdd16283bd95a = $(`<div id="html_62fd62dd981cfcb7de1fdd16283bd95a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Patagonia<br><b>Type:</b> Mens/Womens<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_483bea74fc5372adfef1b1614adb8614.setContent(html_62fd62dd981cfcb7de1fdd16283bd95a);
+            
+        
+
+        marker_2bea79a53e5dce05b49ee169447ddb20.bindPopup(popup_483bea74fc5372adfef1b1614adb8614)
+        ;
+
+        
+    
+    
+            var marker_7e5464cacc673ada365e6fbe950947f4 = L.marker(
+                [34.0748576, -118.3751501],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_ab77096d5d8883c9fb206e6e610e4bed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e5464cacc673ada365e6fbe950947f4.setIcon(icon_ab77096d5d8883c9fb206e6e610e4bed);
+        
+    
+        var popup_ed3c2b19b42205078d4aba209674a1b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ff394ae4a35d22b743202f32d9e458d = $(`<div id="html_5ff394ae4a35d22b743202f32d9e458d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Nordstrom<br><b>Type:</b> Mens/Womens<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_ed3c2b19b42205078d4aba209674a1b4.setContent(html_5ff394ae4a35d22b743202f32d9e458d);
+            
+        
+
+        marker_7e5464cacc673ada365e6fbe950947f4.bindPopup(popup_ed3c2b19b42205078d4aba209674a1b4)
+        ;
+
+        
+    
+    
+            var marker_6d76bdfda865f1d7af14e4973ef1ce29 = L.marker(
+                [33.9813883877551, -118.41624453061225],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_85352e34d22154a75d39830845bad9a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d76bdfda865f1d7af14e4973ef1ce29.setIcon(icon_85352e34d22154a75d39830845bad9a5);
+        
+    
+        var popup_1cf0a2e87a23184b1585e268867f4068 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5b7f923e34f0d8a609248d5b3e7c681 = $(`<div id="html_f5b7f923e34f0d8a609248d5b3e7c681" style="width: 100.0%; height: 100.0%;"><b>Name:</b> TOMS Shoes<br><b>Type:</b> Men/Womens/Children<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_1cf0a2e87a23184b1585e268867f4068.setContent(html_f5b7f923e34f0d8a609248d5b3e7c681);
+            
+        
+
+        marker_6d76bdfda865f1d7af14e4973ef1ce29.bindPopup(popup_1cf0a2e87a23184b1585e268867f4068)
+        ;
+
+        
+    
+    
+            var marker_9a38adfd6c6b3c8c0dd01cf7c8e5b2bc = L.marker(
+                [33.9312299, -116.8198],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_b2ce182ea9b26357eb121d627def8eb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a38adfd6c6b3c8c0dd01cf7c8e5b2bc.setIcon(icon_b2ce182ea9b26357eb121d627def8eb2);
+        
+    
+        var popup_1de7107e3d2007c611dfd73f39d3802d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d909cccad3cddcf0c9109d5a4c26e863 = $(`<div id="html_d909cccad3cddcf0c9109d5a4c26e863" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Desert Hills Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_1de7107e3d2007c611dfd73f39d3802d.setContent(html_d909cccad3cddcf0c9109d5a4c26e863);
+            
+        
+
+        marker_9a38adfd6c6b3c8c0dd01cf7c8e5b2bc.bindPopup(popup_1de7107e3d2007c611dfd73f39d3802d)
+        ;
+
+        
+    
+    
+            var marker_d6936e58868cd9d22ad369419425dcc2 = L.marker(
+                [34.2177387, -119.0560278],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_50dca787d8c9dd8d6e54dc3c09f84e67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6936e58868cd9d22ad369419425dcc2.setIcon(icon_50dca787d8c9dd8d6e54dc3c09f84e67);
+        
+    
+        var popup_3456ca8db1930e62a18e2cdf9ef6732f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f663777724e6c4b1c83d00115f29a05e = $(`<div id="html_f663777724e6c4b1c83d00115f29a05e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Camarillo Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_3456ca8db1930e62a18e2cdf9ef6732f.setContent(html_f663777724e6c4b1c83d00115f29a05e);
+            
+        
+
+        marker_d6936e58868cd9d22ad369419425dcc2.bindPopup(popup_3456ca8db1930e62a18e2cdf9ef6732f)
+        ;
+
+        
+    
+    
+            var marker_418ad0c890d2dea0c974d27fd183b902 = L.marker(
+                [37.6985034, -121.84526327524213],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_815ef8b4e0c144eb4425b602fa0b38a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_418ad0c890d2dea0c974d27fd183b902.setIcon(icon_815ef8b4e0c144eb4425b602fa0b38a3);
+        
+    
+        var popup_16afdd8b88843a734f9d82803f454316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87dc3e629185c1e8ccfca619548c41ca = $(`<div id="html_87dc3e629185c1e8ccfca619548c41ca" style="width: 100.0%; height: 100.0%;"><b>Name:</b> San Francisco Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_16afdd8b88843a734f9d82803f454316.setContent(html_87dc3e629185c1e8ccfca619548c41ca);
+            
+        
+
+        marker_418ad0c890d2dea0c974d27fd183b902.bindPopup(popup_16afdd8b88843a734f9d82803f454316)
+        ;
+
+        
+    
+    
+            var marker_2d4e4af104ebf4acabafa8dbe0a19430 = L.marker(
+                [48.0927603, -122.1880958],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_f769a84fb49491078d039b4c66aa8b94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d4e4af104ebf4acabafa8dbe0a19430.setIcon(icon_f769a84fb49491078d039b4c66aa8b94);
+        
+    
+        var popup_eec7bbc916b197de025e771aa59938bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a201e730bec8df9f46a5c0ebb2d32c85 = $(`<div id="html_a201e730bec8df9f46a5c0ebb2d32c85" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Seattle Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_eec7bbc916b197de025e771aa59938bb.setContent(html_a201e730bec8df9f46a5c0ebb2d32c85);
+            
+        
+
+        marker_2d4e4af104ebf4acabafa8dbe0a19430.bindPopup(popup_eec7bbc916b197de025e771aa59938bb)
+        ;
+
+        
+    
+    
+            var marker_9b4cead659864077596e4524a52c7b69 = L.marker(
+                [45.1551301, -122.8800246],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_d3a94ae006f2749727966469dbceecca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9b4cead659864077596e4524a52c7b69.setIcon(icon_d3a94ae006f2749727966469dbceecca);
+        
+    
+        var popup_ab78835e6e8826b9d6f2615970496b86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeaa933308f88eaf5e0ef47aa9026e36 = $(`<div id="html_aeaa933308f88eaf5e0ef47aa9026e36" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Woodburn Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_ab78835e6e8826b9d6f2615970496b86.setContent(html_aeaa933308f88eaf5e0ef47aa9026e36);
+            
+        
+
+        marker_9b4cead659864077596e4524a52c7b69.bindPopup(popup_ab78835e6e8826b9d6f2615970496b86)
+        ;
+
+        
+    
+    
+            var marker_badd596ecfeb715927b81c849f1c36e1 = L.marker(
+                [32.5431691, -117.0409672],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_c94f910b2a5962362917a9474ac38197 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_badd596ecfeb715927b81c849f1c36e1.setIcon(icon_c94f910b2a5962362917a9474ac38197);
+        
+    
+        var popup_6de94a9c0bd2cb366f7940c273f61872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a37cf45e66e75e71934e354be3cb1446 = $(`<div id="html_a37cf45e66e75e71934e354be3cb1446" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Las Americas Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_6de94a9c0bd2cb366f7940c273f61872.setContent(html_a37cf45e66e75e71934e354be3cb1446);
+            
+        
+
+        marker_badd596ecfeb715927b81c849f1c36e1.bindPopup(popup_6de94a9c0bd2cb366f7940c273f61872)
+        ;
+
+        
+    
+    
+            var marker_b0fde4ae07ed3ff2ec84bb204de9d832 = L.marker(
+                [37.0252311, -121.5636177],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_7d0bda542e54968b5e0c16ad4d947c04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0fde4ae07ed3ff2ec84bb204de9d832.setIcon(icon_7d0bda542e54968b5e0c16ad4d947c04);
+        
+    
+        var popup_29590252f6b2d210318f4f8a173e4dac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0a05b897be1f2a898e6636ba7a74fcd = $(`<div id="html_e0a05b897be1f2a898e6636ba7a74fcd" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Gilroy Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_29590252f6b2d210318f4f8a173e4dac.setContent(html_e0a05b897be1f2a898e6636ba7a74fcd);
+            
+        
+
+        marker_b0fde4ae07ed3ff2ec84bb204de9d832.bindPopup(popup_29590252f6b2d210318f4f8a173e4dac)
+        ;
+
+        
+    
+    
+            var marker_63b7de002a27d4fae018172e158123ed = L.marker(
+                [34.0059067, -118.1528373],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_acab0c7489d1698a09989c9977f70218 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63b7de002a27d4fae018172e158123ed.setIcon(icon_acab0c7489d1698a09989c9977f70218);
+        
+    
+        var popup_ad1bb519bebfc6820216f4bbca176c91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_becc3477f5dd6472a6595f7913495c01 = $(`<div id="html_becc3477f5dd6472a6595f7913495c01" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Citadel Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_ad1bb519bebfc6820216f4bbca176c91.setContent(html_becc3477f5dd6472a6595f7913495c01);
+            
+        
+
+        marker_63b7de002a27d4fae018172e158123ed.bindPopup(popup_ad1bb519bebfc6820216f4bbca176c91)
+        ;
+
+        
+    
+    
+            var marker_350e2e8f702d732cc733dd02b160b264 = L.marker(
+                [34.072990700000005, -117.55154305203709],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_e76a3d9e735525858f4eb8166276c8dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_350e2e8f702d732cc733dd02b160b264.setIcon(icon_e76a3d9e735525858f4eb8166276c8dd);
+        
+    
+        var popup_b40d2080c43f498e4acddae452e83b1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68472f62b1e2adbb47a4c73e4744897a = $(`<div id="html_68472f62b1e2adbb47a4c73e4744897a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Ontario Mills<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_b40d2080c43f498e4acddae452e83b1d.setContent(html_68472f62b1e2adbb47a4c73e4744897a);
+            
+        
+
+        marker_350e2e8f702d732cc733dd02b160b264.bindPopup(popup_b40d2080c43f498e4acddae452e83b1d)
+        ;
+
+        
+    
+    
+            var marker_2a0573313c99c63a9494d894c6f0b15f = L.marker(
+                [33.1268932944087, -117.32309625576619],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_7de7d87ef8452cf568d602f12070d6b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a0573313c99c63a9494d894c6f0b15f.setIcon(icon_7de7d87ef8452cf568d602f12070d6b2);
+        
+    
+        var popup_635df38fd418f01da6d3c33956daa70f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42c36e6178ae874e288d1ca64952ac5b = $(`<div id="html_42c36e6178ae874e288d1ca64952ac5b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Carlsbad Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_635df38fd418f01da6d3c33956daa70f.setContent(html_42c36e6178ae874e288d1ca64952ac5b);
+            
+        
+
+        marker_2a0573313c99c63a9494d894c6f0b15f.bindPopup(popup_635df38fd418f01da6d3c33956daa70f)
+        ;
+
+        
+    
+    
+            var marker_7cf78120a6ac312819f242d6526cf6e6 = L.marker(
+                [34.9855621, -118.941494],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_e94cdd762d13e3ecb0ac4656021fc78d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7cf78120a6ac312819f242d6526cf6e6.setIcon(icon_e94cdd762d13e3ecb0ac4656021fc78d);
+        
+    
+        var popup_baa5baa9cadd2c07b58516998108890c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d56c39fb7b6aa4a79c0666eeeb71bff7 = $(`<div id="html_d56c39fb7b6aa4a79c0666eeeb71bff7" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Outlets at Tejon<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_baa5baa9cadd2c07b58516998108890c.setContent(html_d56c39fb7b6aa4a79c0666eeeb71bff7);
+            
+        
+
+        marker_7cf78120a6ac312819f242d6526cf6e6.bindPopup(popup_baa5baa9cadd2c07b58516998108890c)
+        ;
+
+        
+    
+    
+            var marker_9660164cb54b28cd63c9fbcc445e42e4 = L.marker(
+                [34.8446821, -117.08567417242764],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_632e47d43819cbc952e813d1f0c2bf79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9660164cb54b28cd63c9fbcc445e42e4.setIcon(icon_632e47d43819cbc952e813d1f0c2bf79);
+        
+    
+        var popup_25caf58efb99aa6cb2b963d6c88e8a0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_211800bb49ed9171eda19546f60ba60e = $(`<div id="html_211800bb49ed9171eda19546f60ba60e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Outlets at Barstow<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_25caf58efb99aa6cb2b963d6c88e8a0c.setContent(html_211800bb49ed9171eda19546f60ba60e);
+            
+        
+
+        marker_9660164cb54b28cd63c9fbcc445e42e4.bindPopup(popup_25caf58efb99aa6cb2b963d6c88e8a0c)
+        ;
+
+        
+    
+    
+            var marker_459ad867fc0b20a7e43c2948e9bf396e = L.marker(
+                [38.3658059, -121.9583747],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_1e07b1319f3a2de54e1e229a3da78788 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_459ad867fc0b20a7e43c2948e9bf396e.setIcon(icon_1e07b1319f3a2de54e1e229a3da78788);
+        
+    
+        var popup_da5d3cf69a5b67cb32bcb40ac225a6c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffaa26acf2f8133cd1300aeba4041c16 = $(`<div id="html_ffaa26acf2f8133cd1300aeba4041c16" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Vacaville Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_da5d3cf69a5b67cb32bcb40ac225a6c1.setContent(html_ffaa26acf2f8133cd1300aeba4041c16);
+            
+        
+
+        marker_459ad867fc0b20a7e43c2948e9bf396e.bindPopup(popup_da5d3cf69a5b67cb32bcb40ac225a6c1)
+        ;
+
+        
+    
+    
+            var marker_f204e55336413ba95dd09ff4f04d36b6 = L.marker(
+                [35.1366908, -120.628825],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_e0b2de4c47e5e30d6d8d6d99db50e969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f204e55336413ba95dd09ff4f04d36b6.setIcon(icon_e0b2de4c47e5e30d6d8d6d99db50e969);
+        
+    
+        var popup_db25b1fe9baea46a720f08d405c8c6f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7614e974994995ad8dec3378e10ad614 = $(`<div id="html_7614e974994995ad8dec3378e10ad614" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Pismo Beach Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_db25b1fe9baea46a720f08d405c8c6f7.setContent(html_7614e974994995ad8dec3378e10ad614);
+            
+        
+
+        marker_f204e55336413ba95dd09ff4f04d36b6.bindPopup(popup_db25b1fe9baea46a720f08d405c8c6f7)
+        ;
+
+        
+    
+    
+            var marker_30f4db5864ddcdbb5865b45b7a17bc2a = L.marker(
+                [33.4357026, -117.6279342],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_a2c939904e88898e4a086d24d1afd69f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_30f4db5864ddcdbb5865b45b7a17bc2a.setIcon(icon_a2c939904e88898e4a086d24d1afd69f);
+        
+    
+        var popup_89c78bf877885b3631562395531eeba8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86235ddf9e93bbec65b4ed4413fe5cbc = $(`<div id="html_86235ddf9e93bbec65b4ed4413fe5cbc" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Outlets at San Clemente<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_89c78bf877885b3631562395531eeba8.setContent(html_86235ddf9e93bbec65b4ed4413fe5cbc);
+            
+        
+
+        marker_30f4db5864ddcdbb5865b45b7a17bc2a.bindPopup(popup_89c78bf877885b3631562395531eeba8)
+        ;
+
+        
+    
+    
+            var marker_13d313c184acd109a98b1c20392b35b0 = L.marker(
+                [38.6440013, -121.1881007],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_1fc9ca93f3acd005769cea4d5b5828ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_13d313c184acd109a98b1c20392b35b0.setIcon(icon_1fc9ca93f3acd005769cea4d5b5828ea);
+        
+    
+        var popup_1b7cfe267a257c1ea80d4b873333faf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eed1fc64465969945a83d881eb03b35f = $(`<div id="html_eed1fc64465969945a83d881eb03b35f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Folsom Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_1b7cfe267a257c1ea80d4b873333faf5.setContent(html_eed1fc64465969945a83d881eb03b35f);
+            
+        
+
+        marker_13d313c184acd109a98b1c20392b35b0.bindPopup(popup_1b7cfe267a257c1ea80d4b873333faf5)
+        ;
+
+        
+    
+    
+            var marker_28fc52a87fd011e6074f701cd6f3bb8c = L.marker(
+                [38.2960716, -122.3030827],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_4f8c348c901d294ff4a7cea740b9a46e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28fc52a87fd011e6074f701cd6f3bb8c.setIcon(icon_4f8c348c901d294ff4a7cea740b9a46e);
+        
+    
+        var popup_f33274ac71b23e52ddd79b7eb61eec29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_176cbe9b36952ba91613d08ed9751a31 = $(`<div id="html_176cbe9b36952ba91613d08ed9751a31" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Napa Premium Outlets<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_f33274ac71b23e52ddd79b7eb61eec29.setContent(html_176cbe9b36952ba91613d08ed9751a31);
+            
+        
+
+        marker_28fc52a87fd011e6074f701cd6f3bb8c.bindPopup(popup_f33274ac71b23e52ddd79b7eb61eec29)
+        ;
+
+        
+    
+    
+            var marker_8a35514d3e4f932e48a344a4abb1e4b3 = L.marker(
+                [33.6986965, -117.349391],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_e91f052367d5d64ed34868f630ac37b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a35514d3e4f932e48a344a4abb1e4b3.setIcon(icon_e91f052367d5d64ed34868f630ac37b4);
+        
+    
+        var popup_5999adefacbef3990e966252b08d3716 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cffb9d940ad94edda6be0ae038208ab1 = $(`<div id="html_cffb9d940ad94edda6be0ae038208ab1" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Outlets at Lake Elsinore<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_5999adefacbef3990e966252b08d3716.setContent(html_cffb9d940ad94edda6be0ae038208ab1);
+            
+        
+
+        marker_8a35514d3e4f932e48a344a4abb1e4b3.bindPopup(popup_5999adefacbef3990e966252b08d3716)
+        ;
+
+        
+    
+    
+            var marker_05dc467832614d9017bc6b5e4cdba568 = L.marker(
+                [43.1113363, -70.7374341],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_732aca6449e4088f2aecde1cf3ba0c58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_05dc467832614d9017bc6b5e4cdba568.setIcon(icon_732aca6449e4088f2aecde1cf3ba0c58);
+        
+    
+        var popup_621ba9d48e2ec46da34dc8c3d56d395c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f8614764463662f23980bb8a8014825 = $(`<div id="html_7f8614764463662f23980bb8a8014825" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Outlets at Kittery<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_621ba9d48e2ec46da34dc8c3d56d395c.setContent(html_7f8614764463662f23980bb8a8014825);
+            
+        
+
+        marker_05dc467832614d9017bc6b5e4cdba568.bindPopup(popup_621ba9d48e2ec46da34dc8c3d56d395c)
+        ;
+
+        
+    
+    
+            var marker_a6331f6bf3ce593331e4a18fec89f1a4 = L.marker(
+                [35.8315457, -83.5723001],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_d39207ddb800ee3cac40535530bbcfbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6331f6bf3ce593331e4a18fec89f1a4.setIcon(icon_d39207ddb800ee3cac40535530bbcfbe);
+        
+    
+        var popup_0fdf500f33a314a3ddf2cd55c4843eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b5560d0d34e4a9dffd56bb5d6c9a03f = $(`<div id="html_1b5560d0d34e4a9dffd56bb5d6c9a03f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Tanger Outlets Sevierville<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_0fdf500f33a314a3ddf2cd55c4843eb3.setContent(html_1b5560d0d34e4a9dffd56bb5d6c9a03f);
+            
+        
+
+        marker_a6331f6bf3ce593331e4a18fec89f1a4.bindPopup(popup_0fdf500f33a314a3ddf2cd55c4843eb3)
+        ;
+
+        
+    
+    
+            var marker_6315e9ea3663363319776c6cc30510fd = L.marker(
+                [30.3821077, -87.6833293],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_09108c83c63a0c5ceb1bb0efeceed1b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6315e9ea3663363319776c6cc30510fd.setIcon(icon_09108c83c63a0c5ceb1bb0efeceed1b2);
+        
+    
+        var popup_65a5bd04a0c73191c6fb6e33af461ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_018d386989d553293da0d165311c8f2e = $(`<div id="html_018d386989d553293da0d165311c8f2e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Tanger Outlets Foley<br><b>Type:</b> nan<br><b>Data:</b> Manufacturers</div>`)[0];
+                popup_65a5bd04a0c73191c6fb6e33af461ae2.setContent(html_018d386989d553293da0d165311c8f2e);
+            
+        
+
+        marker_6315e9ea3663363319776c6cc30510fd.bindPopup(popup_65a5bd04a0c73191c6fb6e33af461ae2)
+        ;
+
+        
+    
+    
+            var marker_8ec56bf71b3be856115b917ffb82de8d = L.marker(
+                [37.78221695, -122.41322759612794],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_16773db39a5db3d08c6fa67206dbdca4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ec56bf71b3be856115b917ffb82de8d.setIcon(icon_16773db39a5db3d08c6fa67206dbdca4);
+        
+    
+        var popup_6ac70544d3c93ab91f0984d52b0464fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99022c0995193bf9aaf9cf751e71c030 = $(`<div id="html_99022c0995193bf9aaf9cf751e71c030" style="width: 100.0%; height: 100.0%;"><b>Name:</b> St Anthony's Clothing<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_6ac70544d3c93ab91f0984d52b0464fd.setContent(html_99022c0995193bf9aaf9cf751e71c030);
+            
+        
+
+        marker_8ec56bf71b3be856115b917ffb82de8d.bindPopup(popup_6ac70544d3c93ab91f0984d52b0464fd)
+        ;
+
+        
+    
+    
+            var marker_e2ac5b195c9aa2f6e0e36dc04c56ce25 = L.marker(
+                [33.904865907537264, -118.3177010062983],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_6e24381aee8f064e2fec1647ceae43cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e2ac5b195c9aa2f6e0e36dc04c56ce25.setIcon(icon_6e24381aee8f064e2fec1647ceae43cf);
+        
+    
+        var popup_c354e64c9e46ea4b608009772ad2b620 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb9769da190fe9bf91f53734b0c40c13 = $(`<div id="html_fb9769da190fe9bf91f53734b0c40c13" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Project Ropa<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_c354e64c9e46ea4b608009772ad2b620.setContent(html_fb9769da190fe9bf91f53734b0c40c13);
+            
+        
+
+        marker_e2ac5b195c9aa2f6e0e36dc04c56ce25.bindPopup(popup_c354e64c9e46ea4b608009772ad2b620)
+        ;
+
+        
+    
+    
+            var marker_9792d5c1480e72c24a5454f82c3c4bb4 = L.marker(
+                [37.69425935, -122.08348311006728],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_116cd140fd3617e7f67995b05be941bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9792d5c1480e72c24a5454f82c3c4bb4.setIcon(icon_116cd140fd3617e7f67995b05be941bf);
+        
+    
+        var popup_6603485e3babb3c15c1187c5c04878b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab413a8558b2f95c550a0e68958fb598 = $(`<div id="html_ab413a8558b2f95c550a0e68958fb598" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Ruby's Place Inc<br><b>Type:</b> Women's Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_6603485e3babb3c15c1187c5c04878b8.setContent(html_ab413a8558b2f95c550a0e68958fb598);
+            
+        
+
+        marker_9792d5c1480e72c24a5454f82c3c4bb4.bindPopup(popup_6603485e3babb3c15c1187c5c04878b8)
+        ;
+
+        
+    
+    
+            var marker_20f9c5a207a91c22e690cd5b9eb25115 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_5872b48a274df02f013a85d8031caee2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20f9c5a207a91c22e690cd5b9eb25115.setIcon(icon_5872b48a274df02f013a85d8031caee2);
+        
+    
+        var popup_002ba27447d0eb71536a1a5074f5a8d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ee5e604721bbaea09de91ffa072b86e = $(`<div id="html_5ee5e604721bbaea09de91ffa072b86e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Women's Daytime Drop-In Center<br><b>Type:</b> Women's Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_002ba27447d0eb71536a1a5074f5a8d1.setContent(html_5ee5e604721bbaea09de91ffa072b86e);
+            
+        
+
+        marker_20f9c5a207a91c22e690cd5b9eb25115.bindPopup(popup_002ba27447d0eb71536a1a5074f5a8d1)
+        ;
+
+        
+    
+    
+            var marker_d144962606290dcd0b4f9d48d4222a63 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_4be296057efeeb5b80a1aaa6268781e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d144962606290dcd0b4f9d48d4222a63.setIcon(icon_4be296057efeeb5b80a1aaa6268781e8);
+        
+    
+        var popup_29266c072873f4e16affe8b0bcde4302 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a56437f478f530e5655aa21ceeb70a7e = $(`<div id="html_a56437f478f530e5655aa21ceeb70a7e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Ursula Sherman Village<br><b>Type:</b> Women's Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_29266c072873f4e16affe8b0bcde4302.setContent(html_a56437f478f530e5655aa21ceeb70a7e);
+            
+        
+
+        marker_d144962606290dcd0b4f9d48d4222a63.bindPopup(popup_29266c072873f4e16affe8b0bcde4302)
+        ;
+
+        
+    
+    
+            var marker_dca9667e53dda6e86c92cfc5cb8b037b = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_6838078387b123576fbb226547f1a2c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dca9667e53dda6e86c92cfc5cb8b037b.setIcon(icon_6838078387b123576fbb226547f1a2c4);
+        
+    
+        var popup_02ee4a386aa2da757f8eef8906b527f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10bfff29c6560f89700b5db086223025 = $(`<div id="html_10bfff29c6560f89700b5db086223025" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Urban Angles SF<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_02ee4a386aa2da757f8eef8906b527f7.setContent(html_10bfff29c6560f89700b5db086223025);
+            
+        
+
+        marker_dca9667e53dda6e86c92cfc5cb8b037b.bindPopup(popup_02ee4a386aa2da757f8eef8906b527f7)
+        ;
+
+        
+    
+    
+            var marker_215446251f61eb2a6d865b4db21fa0fc = L.marker(
+                [37.869997, -122.271773],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_432ec6505e8c4f6ae846739dc9f8ea8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_215446251f61eb2a6d865b4db21fa0fc.setIcon(icon_432ec6505e8c4f6ae846739dc9f8ea8c);
+        
+    
+        var popup_e3df1a4c4a0e05c4109a6226bf353427 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d2ee004ce7cf1dc788a23e4ea80deb1 = $(`<div id="html_6d2ee004ce7cf1dc788a23e4ea80deb1" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Dorothy Day House<br><b>Type:</b> Homeless Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_e3df1a4c4a0e05c4109a6226bf353427.setContent(html_6d2ee004ce7cf1dc788a23e4ea80deb1);
+            
+        
+
+        marker_215446251f61eb2a6d865b4db21fa0fc.bindPopup(popup_e3df1a4c4a0e05c4109a6226bf353427)
+        ;
+
+        
+    
+    
+            var marker_1264b958efde4c032ed1a5e7824cd92e = L.marker(
+                [37.7614267, -122.42261019059325],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_825d2042d2e3b424a970c72566020e3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1264b958efde4c032ed1a5e7824cd92e.setIcon(icon_825d2042d2e3b424a970c72566020e3b);
+        
+    
+        var popup_688afa50a58e966e7ee2a74db480a4e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d932253e85b9d14b6174dc88c04da9fe = $(`<div id="html_d932253e85b9d14b6174dc88c04da9fe" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Asian Women's Shelter<br><b>Type:</b> Women's Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_688afa50a58e966e7ee2a74db480a4e0.setContent(html_d932253e85b9d14b6174dc88c04da9fe);
+            
+        
+
+        marker_1264b958efde4c032ed1a5e7824cd92e.bindPopup(popup_688afa50a58e966e7ee2a74db480a4e0)
+        ;
+
+        
+    
+    
+            var marker_257968f8650a22513606da5db3eb819b = L.marker(
+                [37.7698358, -122.4193302],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_2c6fd863adff38b7de8ef08c42e9fbbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_257968f8650a22513606da5db3eb819b.setIcon(icon_2c6fd863adff38b7de8ef08c42e9fbbc);
+        
+    
+        var popup_b5745885bab6f4fa7747a532b6c74231 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d8c37baa92e2f2d3c25b8495ca1f51f = $(`<div id="html_9d8c37baa92e2f2d3c25b8495ca1f51f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> A Woman's Place Drop In<br><b>Type:</b> Women's Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_b5745885bab6f4fa7747a532b6c74231.setContent(html_9d8c37baa92e2f2d3c25b8495ca1f51f);
+            
+        
+
+        marker_257968f8650a22513606da5db3eb819b.bindPopup(popup_b5745885bab6f4fa7747a532b6c74231)
+        ;
+
+        
+    
+    
+            var marker_fd99fda8ffc80f8ece1fb034184faa76 = L.marker(
+                [37.78305852578637, -122.41589530942997],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_31750bb443ef2e0ff673ed8220e656b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd99fda8ffc80f8ece1fb034184faa76.setIcon(icon_31750bb443ef2e0ff673ed8220e656b2);
+        
+    
+        var popup_ab5a757f56584a76636bed9482373c38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89d1029af867f0eadd9bced16ca293f9 = $(`<div id="html_89d1029af867f0eadd9bced16ca293f9" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Hope Center<br><b>Type:</b> Women's Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_ab5a757f56584a76636bed9482373c38.setContent(html_89d1029af867f0eadd9bced16ca293f9);
+            
+        
+
+        marker_fd99fda8ffc80f8ece1fb034184faa76.bindPopup(popup_ab5a757f56584a76636bed9482373c38)
+        ;
+
+        
+    
+    
+            var marker_ec332c9d6b635c8977abf3b03091d9e2 = L.marker(
+                [37.778581, -122.40823833002119],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_7e153a0331ec978c495885b21507e679 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec332c9d6b635c8977abf3b03091d9e2.setIcon(icon_7e153a0331ec978c495885b21507e679);
+        
+    
+        var popup_75b628fd125f2a25003f9600964c329d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c24dfc5a932ecbe98589cf0652b0293 = $(`<div id="html_2c24dfc5a932ecbe98589cf0652b0293" style="width: 100.0%; height: 100.0%;"><b>Name:</b> A Women's Place<br><b>Type:</b> Women's Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_75b628fd125f2a25003f9600964c329d.setContent(html_2c24dfc5a932ecbe98589cf0652b0293);
+            
+        
+
+        marker_ec332c9d6b635c8977abf3b03091d9e2.bindPopup(popup_75b628fd125f2a25003f9600964c329d)
+        ;
+
+        
+    
+    
+            var marker_c6387ca54567210fe7ecab33f053874d = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_94f4bed8deea86cf67f457eb36990e85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6387ca54567210fe7ecab33f053874d.setIcon(icon_94f4bed8deea86cf67f457eb36990e85);
+        
+    
+        var popup_ff43d268aa293022ffa82eddd5bd0866 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed8330f97f32e4ac72a9a5a8781c0941 = $(`<div id="html_ed8330f97f32e4ac72a9a5a8781c0941" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Goodwill<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_ff43d268aa293022ffa82eddd5bd0866.setContent(html_ed8330f97f32e4ac72a9a5a8781c0941);
+            
+        
+
+        marker_c6387ca54567210fe7ecab33f053874d.bindPopup(popup_ff43d268aa293022ffa82eddd5bd0866)
+        ;
+
+        
+    
+    
+            var marker_209b7d2eebd0809782afd6de4296a17a = L.marker(
+                [37.7880864117647, -122.41818541176471],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_1204ade56fea157986bd474a00c3fa20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_209b7d2eebd0809782afd6de4296a17a.setIcon(icon_1204ade56fea157986bd474a00c3fa20);
+        
+    
+        var popup_948e18cfd184df7d0eef2245455a856b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23e4c55135e9a461d3b33287fa50f15c = $(`<div id="html_23e4c55135e9a461d3b33287fa50f15c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Raphael House<br><b>Type:</b> Homeless Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_948e18cfd184df7d0eef2245455a856b.setContent(html_23e4c55135e9a461d3b33287fa50f15c);
+            
+        
+
+        marker_209b7d2eebd0809782afd6de4296a17a.bindPopup(popup_948e18cfd184df7d0eef2245455a856b)
+        ;
+
+        
+    
+    
+            var marker_754fc911733a14c99be2917e62ab9363 = L.marker(
+                [34.044743125, -118.243457125],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_4394a95a54973b0e1ef42f33f0fdaf6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_754fc911733a14c99be2917e62ab9363.setIcon(icon_4394a95a54973b0e1ef42f33f0fdaf6c);
+        
+    
+        var popup_54bb9c81168b383a22d1d6b5704c0262 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be72800b663b5406846061d979da8499 = $(`<div id="html_be72800b663b5406846061d979da8499" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Downtown Women's Shelther<br><b>Type:</b> Women's Shelther<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_54bb9c81168b383a22d1d6b5704c0262.setContent(html_be72800b663b5406846061d979da8499);
+            
+        
+
+        marker_754fc911733a14c99be2917e62ab9363.bindPopup(popup_54bb9c81168b383a22d1d6b5704c0262)
+        ;
+
+        
+    
+    
+            var marker_0e13bd6ed66c300948a50e59239e6364 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_2f1088a1cf0091cf5439ecd8aef9910d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e13bd6ed66c300948a50e59239e6364.setIcon(icon_2f1088a1cf0091cf5439ecd8aef9910d);
+        
+    
+        var popup_0d57b548591817bf949acc5d401a30da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b181590e1c32b112fd169c8505b6c63 = $(`<div id="html_4b181590e1c32b112fd169c8505b6c63" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Homeboy Threads<br><b>Type:</b> nan<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_0d57b548591817bf949acc5d401a30da.setContent(html_4b181590e1c32b112fd169c8505b6c63);
+            
+        
+
+        marker_0e13bd6ed66c300948a50e59239e6364.bindPopup(popup_0d57b548591817bf949acc5d401a30da)
+        ;
+
+        
+    
+    
+            var marker_fa297727946522639b5db6f4ca52eba2 = L.marker(
+                [37.773728899999995, -122.41126230698151],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_57dbd7444cf76868a18c32ecf4a369ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa297727946522639b5db6f4ca52eba2.setIcon(icon_57dbd7444cf76868a18c32ecf4a369ba);
+        
+    
+        var popup_427b16cb5a5b96d5f9fb576c594feb89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbf6d3673a9a4042ef86d7653c3b00f4 = $(`<div id="html_bbf6d3673a9a4042ef86d7653c3b00f4" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Out of the Closest<br><b>Type:</b> Op Shop<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_427b16cb5a5b96d5f9fb576c594feb89.setContent(html_bbf6d3673a9a4042ef86d7653c3b00f4);
+            
+        
+
+        marker_fa297727946522639b5db6f4ca52eba2.bindPopup(popup_427b16cb5a5b96d5f9fb576c594feb89)
+        ;
+
+        
+    
+    
+            var marker_83788ad50b52145ed50d2c0136499497 = L.marker(
+                [37.772789700000004, -122.43827592601868],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_44e0c3e3b14ffcb53310646ac5157e2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83788ad50b52145ed50d2c0136499497.setIcon(icon_44e0c3e3b14ffcb53310646ac5157e2d);
+        
+    
+        var popup_38a5e7ae1198c810805f59cfca777af2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bba393e4fabd74011d2688392c901de = $(`<div id="html_9bba393e4fabd74011d2688392c901de" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Wetside Community Service<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_38a5e7ae1198c810805f59cfca777af2.setContent(html_9bba393e4fabd74011d2688392c901de);
+            
+        
+
+        marker_83788ad50b52145ed50d2c0136499497.bindPopup(popup_38a5e7ae1198c810805f59cfca777af2)
+        ;
+
+        
+    
+    
+            var marker_59bb79e2b6b3c61f5c25f663e0540120 = L.marker(
+                [33.91698412150425, -118.12447673433465],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_ff6a4afdc97518fff22e1a862dce65be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59bb79e2b6b3c61f5c25f663e0540120.setIcon(icon_ff6a4afdc97518fff22e1a862dce65be);
+        
+    
+        var popup_c1660707c2d62e934f799aecb8d1ce9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f608b25b428761d698617886c781837e = $(`<div id="html_f608b25b428761d698617886c781837e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Clothes the Deal<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_c1660707c2d62e934f799aecb8d1ce9d.setContent(html_f608b25b428761d698617886c781837e);
+            
+        
+
+        marker_59bb79e2b6b3c61f5c25f663e0540120.bindPopup(popup_c1660707c2d62e934f799aecb8d1ce9d)
+        ;
+
+        
+    
+    
+            var marker_c0ec4517ebf4ae0b72ec51479d222706 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_f17ed016fcdbaa1fcdd87110a7a54ef7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c0ec4517ebf4ae0b72ec51479d222706.setIcon(icon_f17ed016fcdbaa1fcdd87110a7a54ef7);
+        
+    
+        var popup_feb1bb713109a7474e452bc7488961e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0214d09d8145f712b2ea4b9be4ae60c7 = $(`<div id="html_0214d09d8145f712b2ea4b9be4ae60c7" style="width: 100.0%; height: 100.0%;"><b>Name:</b> t. Paul's Lutheran Church Clothing Closet<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_feb1bb713109a7474e452bc7488961e1.setContent(html_0214d09d8145f712b2ea4b9be4ae60c7);
+            
+        
+
+        marker_c0ec4517ebf4ae0b72ec51479d222706.bindPopup(popup_feb1bb713109a7474e452bc7488961e1)
+        ;
+
+        
+    
+    
+            var marker_86679c20a6f559cd31dfed2274b3ca13 = L.marker(
+                [34.01634957142857, -118.25581171428571],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_4b9ad47e2d409832e3d58e75dbe51a8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86679c20a6f559cd31dfed2274b3ca13.setIcon(icon_4b9ad47e2d409832e3d58e75dbe51a8d);
+        
+    
+        var popup_d1c29259367f2b1a1088c91975635a6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecee234f3b796f796eb17c69f834c8d1 = $(`<div id="html_ecee234f3b796f796eb17c69f834c8d1" style="width: 100.0%; height: 100.0%;"><b>Name:</b> At the Crossroads<br><b>Type:</b> nan<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_d1c29259367f2b1a1088c91975635a6b.setContent(html_ecee234f3b796f796eb17c69f834c8d1);
+            
+        
+
+        marker_86679c20a6f559cd31dfed2274b3ca13.bindPopup(popup_d1c29259367f2b1a1088c91975635a6b)
+        ;
+
+        
+    
+    
+            var marker_db33b1d1757932ecb569af10358b9cdb = L.marker(
+                [37.785326600000005, -122.41171734563557],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_beb9b8add9e07d2c5e49127a40849026 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db33b1d1757932ecb569af10358b9cdb.setIcon(icon_beb9b8add9e07d2c5e49127a40849026);
+        
+    
+        var popup_048f5ca2064ae673b609ada72971d7c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca3549ee85901d0d60a5f1b212b2af68 = $(`<div id="html_ca3549ee85901d0d60a5f1b212b2af68" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Glide Memorial Church<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_048f5ca2064ae673b609ada72971d7c3.setContent(html_ca3549ee85901d0d60a5f1b212b2af68);
+            
+        
+
+        marker_db33b1d1757932ecb569af10358b9cdb.bindPopup(popup_048f5ca2064ae673b609ada72971d7c3)
+        ;
+
+        
+    
+    
+            var marker_06401d3943dc7b6bd206190a50594e66 = L.marker(
+                [37.762151849999995, -122.40757884195695],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_730ae4ea6ad201be6aaffdae0abc3301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_06401d3943dc7b6bd206190a50594e66.setIcon(icon_730ae4ea6ad201be6aaffdae0abc3301);
+        
+    
+        var popup_ca0bd9d5ff1513d1c45b2495457fb4a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a086c6e1023a2db99fba79a684ddd19e = $(`<div id="html_a086c6e1023a2db99fba79a684ddd19e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Homeless Prenatal Program<br><b>Type:</b> Charity<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_ca0bd9d5ff1513d1c45b2495457fb4a4.setContent(html_a086c6e1023a2db99fba79a684ddd19e);
+            
+        
+
+        marker_06401d3943dc7b6bd206190a50594e66.bindPopup(popup_ca0bd9d5ff1513d1c45b2495457fb4a4)
+        ;
+
+        
+    
+    
+            var marker_9ec2c78ff5492b0602392a9d73339341 = L.marker(
+                [37.7767873, -122.4121129],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_fd67b7c5eaeceb027d5891d8bdb12fd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9ec2c78ff5492b0602392a9d73339341.setIcon(icon_fd67b7c5eaeceb027d5891d8bdb12fd9);
+        
+    
+        var popup_19c69f296e22408cd1ae01567706a61c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61a3f096285b615b8f3f409df9442cb5 = $(`<div id="html_61a3f096285b615b8f3f409df9442cb5" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Episcopal Community Services of San Francisco<br><b>Type:</b> nan<br><b>Data:</b> Disrtibution Point</div>`)[0];
+                popup_19c69f296e22408cd1ae01567706a61c.setContent(html_61a3f096285b615b8f3f409df9442cb5);
+            
+        
+
+        marker_9ec2c78ff5492b0602392a9d73339341.bindPopup(popup_19c69f296e22408cd1ae01567706a61c)
+        ;
+
+        
+    
+    
+            var marker_cef1247a1767f66651badb3d4364d30b = L.marker(
+                [33.775427, -118.182243],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_a9a7df4fb8d670583ea581eb9a801c45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cef1247a1767f66651badb3d4364d30b.setIcon(icon_a9a7df4fb8d670583ea581eb9a801c45);
+        
+    
+        var popup_df4bf54a0e1ee31301b669ee7082af55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18e618664c0f8e826a80450cd39863ef = $(`<div id="html_18e618664c0f8e826a80450cd39863ef" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 801 E 7th St<br><b>Type:</b> $15.00 - $18.00<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_df4bf54a0e1ee31301b669ee7082af55.setContent(html_18e618664c0f8e826a80450cd39863ef);
+            
+        
+
+        marker_cef1247a1767f66651badb3d4364d30b.bindPopup(popup_df4bf54a0e1ee31301b669ee7082af55)
+        ;
+
+        
+    
+    
+            var marker_6da1f6ce274e2b878e7d291f412abc14 = L.marker(
+                [34.039272052421296, -118.23171984627362],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_ad582e3610d41b684e8c1f750df48823 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6da1f6ce274e2b878e7d291f412abc14.setIcon(icon_ad582e3610d41b684e8c1f750df48823);
+        
+    
+        var popup_3474a9c44d904633e783fdc3ab7357dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24530c61290c1b48f41fb2c46f08f092 = $(`<div id="html_24530c61290c1b48f41fb2c46f08f092" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1501 Willow St<br><b>Type:</b> 17<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_3474a9c44d904633e783fdc3ab7357dd.setContent(html_24530c61290c1b48f41fb2c46f08f092);
+            
+        
+
+        marker_6da1f6ce274e2b878e7d291f412abc14.bindPopup(popup_3474a9c44d904633e783fdc3ab7357dd)
+        ;
+
+        
+    
+    
+            var marker_738d8ef03b31a8c25f06903644119b9a = L.marker(
+                [33.77420751515151, -118.17595181818183],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_2936200f196cfd0e4f269a53fbd21883 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_738d8ef03b31a8c25f06903644119b9a.setIcon(icon_2936200f196cfd0e4f269a53fbd21883);
+        
+    
+        var popup_b3c8195745efa07c2da5099a0dd72558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ffa783fc64a7bfbe3cba81fad185e92 = $(`<div id="html_4ffa783fc64a7bfbe3cba81fad185e92" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1235 E 6th St<br><b>Type:</b> 20<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_b3c8195745efa07c2da5099a0dd72558.setContent(html_4ffa783fc64a7bfbe3cba81fad185e92);
+            
+        
+
+        marker_738d8ef03b31a8c25f06903644119b9a.bindPopup(popup_b3c8195745efa07c2da5099a0dd72558)
+        ;
+
+        
+    
+    
+            var marker_a4d574c19a201d6522887d5173c99f60 = L.marker(
+                [33.98151798343541, -118.23568865188676],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_51bcfb7617ff6d5def7f6aaaaa923b8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a4d574c19a201d6522887d5173c99f60.setIcon(icon_51bcfb7617ff6d5def7f6aaaaa923b8c);
+        
+    
+        var popup_9e1aa0ea1086e0ae36d05600042eef9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f7809aad29b2cd760fdf7ce2092e470 = $(`<div id="html_6f7809aad29b2cd760fdf7ce2092e470" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 6401 S Alameda St<br><b>Type:</b> 14<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_9e1aa0ea1086e0ae36d05600042eef9c.setContent(html_6f7809aad29b2cd760fdf7ce2092e470);
+            
+        
+
+        marker_a4d574c19a201d6522887d5173c99f60.bindPopup(popup_9e1aa0ea1086e0ae36d05600042eef9c)
+        ;
+
+        
+    
+    
+            var marker_c1ea7b2967b0a46571897d1c6f044463 = L.marker(
+                [34.02743407407407, -118.238147],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_ddb041d759a048c15c76e9424ec2d737 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c1ea7b2967b0a46571897d1c6f044463.setIcon(icon_ddb041d759a048c15c76e9424ec2d737);
+        
+    
+        var popup_61c0092cf1ca1d87b39eb0fd7323d84a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76d10e55dadb5213bf25018ae0908ae3 = $(`<div id="html_76d10e55dadb5213bf25018ae0908ae3" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1901 E Olympic Blvd<br><b>Type:</b> 16<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_61c0092cf1ca1d87b39eb0fd7323d84a.setContent(html_76d10e55dadb5213bf25018ae0908ae3);
+            
+        
+
+        marker_c1ea7b2967b0a46571897d1c6f044463.bindPopup(popup_61c0092cf1ca1d87b39eb0fd7323d84a)
+        ;
+
+        
+    
+    
+            var marker_80ab63c93ad4c62163541245479417b3 = L.marker(
+                [34.028094, -118.372097],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_7f3a7008e5de20e19729a92805858287 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_80ab63c93ad4c62163541245479417b3.setIcon(icon_7f3a7008e5de20e19729a92805858287);
+        
+    
+        var popup_a5e055d84b67e4f8160191c7a0df6d02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c098e90a0a76e7eb46fdafaae44888d = $(`<div id="html_4c098e90a0a76e7eb46fdafaae44888d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 3301 S La Cienega Blvd<br><b>Type:</b> 18<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_a5e055d84b67e4f8160191c7a0df6d02.setContent(html_4c098e90a0a76e7eb46fdafaae44888d);
+            
+        
+
+        marker_80ab63c93ad4c62163541245479417b3.bindPopup(popup_a5e055d84b67e4f8160191c7a0df6d02)
+        ;
+
+        
+    
+    
+            var marker_bd0fe7a02391e3eb6e5b9ef65d80ab98 = L.marker(
+                [33.987353, -118.161906],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_3389cbeb87f73a4aa30bc492f2adba1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd0fe7a02391e3eb6e5b9ef65d80ab98.setIcon(icon_3389cbeb87f73a4aa30bc492f2adba1b);
+        
+    
+        var popup_a8fcb3eb84c03132ca42f86df0729b1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6db040b7d78bf4769001939658557006 = $(`<div id="html_6db040b7d78bf4769001939658557006" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 5701 S Eastern Ave<br><b>Type:</b> 22<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_a8fcb3eb84c03132ca42f86df0729b1c.setContent(html_6db040b7d78bf4769001939658557006);
+            
+        
+
+        marker_bd0fe7a02391e3eb6e5b9ef65d80ab98.bindPopup(popup_a8fcb3eb84c03132ca42f86df0729b1c)
+        ;
+
+        
+    
+    
+            var marker_bc958eaac3bd60e9a2940ee2f9922199 = L.marker(
+                [33.99688385, -118.17104069999999],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_f9ae88d833b477485c932066b49e63b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc958eaac3bd60e9a2940ee2f9922199.setIcon(icon_f9ae88d833b477485c932066b49e63b9);
+        
+    
+        var popup_91b10b7c425553389104284489115148 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31c9199f4378bc14b8b2df8486313673 = $(`<div id="html_31c9199f4378bc14b8b2df8486313673" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 4801 Bandini Blvd<br><b>Type:</b> 19<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_91b10b7c425553389104284489115148.setContent(html_31c9199f4378bc14b8b2df8486313673);
+            
+        
+
+        marker_bc958eaac3bd60e9a2940ee2f9922199.bindPopup(popup_91b10b7c425553389104284489115148)
+        ;
+
+        
+    
+    
+            var marker_3337a43ef5c4b3339f39711d26b61dc4 = L.marker(
+                [34.01816, -118.275729],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_f86dc7c91fa1b8c88678de65dfdfc39d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3337a43ef5c4b3339f39711d26b61dc4.setIcon(icon_f86dc7c91fa1b8c88678de65dfdfc39d);
+        
+    
+        var popup_e74c4e2fecc03dd01feb790cb93f2356 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_886ceef92d0d0fc38008beafd48d205c = $(`<div id="html_886ceef92d0d0fc38008beafd48d205c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 3500 S Hill St<br><b>Type:</b> 15.5<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_e74c4e2fecc03dd01feb790cb93f2356.setContent(html_886ceef92d0d0fc38008beafd48d205c);
+            
+        
+
+        marker_3337a43ef5c4b3339f39711d26b61dc4.bindPopup(popup_e74c4e2fecc03dd01feb790cb93f2356)
+        ;
+
+        
+    
+    
+            var marker_bafe17a2d0f744a243f0c26f0ff26d61 = L.marker(
+                [34.02563859183673, -118.34192948979592],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_a0cc14aa74b85b758a1f3f2224e59b4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bafe17a2d0f744a243f0c26f0ff26d61.setIcon(icon_a0cc14aa74b85b758a1f3f2224e59b4c);
+        
+    
+        var popup_ca722628820745d1e004ad77f9061ed1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f447994b383f215782462582e66f4a6 = $(`<div id="html_7f447994b383f215782462582e66f4a6" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 4211 W Jefferson Blvd<br><b>Type:</b> 21<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_ca722628820745d1e004ad77f9061ed1.setContent(html_7f447994b383f215782462582e66f4a6);
+            
+        
+
+        marker_bafe17a2d0f744a243f0c26f0ff26d61.bindPopup(popup_ca722628820745d1e004ad77f9061ed1)
+        ;
+
+        
+    
+    
+            var marker_615e296a573df3689145e098eb8c0fb6 = L.marker(
+                [33.775427, -118.182243],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_84db75b4a490bf11e6e0e213a016d763 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_615e296a573df3689145e098eb8c0fb6.setIcon(icon_84db75b4a490bf11e6e0e213a016d763);
+        
+    
+        var popup_5e11d90501f22e6973d629c1225388e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e4053445c1ef21a8f4beef499c3f834 = $(`<div id="html_6e4053445c1ef21a8f4beef499c3f834" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 801 E 7th St<br><b>Type:</b> $15.00 - $18.00<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_5e11d90501f22e6973d629c1225388e6.setContent(html_6e4053445c1ef21a8f4beef499c3f834);
+            
+        
+
+        marker_615e296a573df3689145e098eb8c0fb6.bindPopup(popup_5e11d90501f22e6973d629c1225388e6)
+        ;
+
+        
+    
+    
+            var marker_6c1baa91528b879864b60b2887556a29 = L.marker(
+                [34.039272052421296, -118.23171984627362],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_72bfdf18ecffe6c50a57ebdf568b3df2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c1baa91528b879864b60b2887556a29.setIcon(icon_72bfdf18ecffe6c50a57ebdf568b3df2);
+        
+    
+        var popup_4e8b95995121e0806c16f3d8155e871c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e05638d16efd8070e2d0a47749081e = $(`<div id="html_c6e05638d16efd8070e2d0a47749081e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1501 Willow St<br><b>Type:</b> 17<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_4e8b95995121e0806c16f3d8155e871c.setContent(html_c6e05638d16efd8070e2d0a47749081e);
+            
+        
+
+        marker_6c1baa91528b879864b60b2887556a29.bindPopup(popup_4e8b95995121e0806c16f3d8155e871c)
+        ;
+
+        
+    
+    
+            var marker_123438d82223924e1b3ab49a31d53fed = L.marker(
+                [33.77420751515151, -118.17595181818183],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_3132ee3ab5ed8ba395d679fa4167d903 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_123438d82223924e1b3ab49a31d53fed.setIcon(icon_3132ee3ab5ed8ba395d679fa4167d903);
+        
+    
+        var popup_e863e705d4a6561fe0f1f76573f3afb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8cca1a30a2384694a6f832c952960f1 = $(`<div id="html_c8cca1a30a2384694a6f832c952960f1" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1235 E 6th St<br><b>Type:</b> 20<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_e863e705d4a6561fe0f1f76573f3afb5.setContent(html_c8cca1a30a2384694a6f832c952960f1);
+            
+        
+
+        marker_123438d82223924e1b3ab49a31d53fed.bindPopup(popup_e863e705d4a6561fe0f1f76573f3afb5)
+        ;
+
+        
+    
+    
+            var marker_bf929ab99c8b0d04be1c7cd0da789c47 = L.marker(
+                [33.98151798343541, -118.23568865188676],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_233cfe88c2a02f9ec851c849f6efa63b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf929ab99c8b0d04be1c7cd0da789c47.setIcon(icon_233cfe88c2a02f9ec851c849f6efa63b);
+        
+    
+        var popup_8b29e664e614258f4826c857f8f103f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3d897c2cd74c8f01325cd9e4ff06634 = $(`<div id="html_c3d897c2cd74c8f01325cd9e4ff06634" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 6401 S Alameda St<br><b>Type:</b> 14<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_8b29e664e614258f4826c857f8f103f0.setContent(html_c3d897c2cd74c8f01325cd9e4ff06634);
+            
+        
+
+        marker_bf929ab99c8b0d04be1c7cd0da789c47.bindPopup(popup_8b29e664e614258f4826c857f8f103f0)
+        ;
+
+        
+    
+    
+            var marker_7bcc59b35f3e7b2fe36972a339245c70 = L.marker(
+                [34.02743407407407, -118.238147],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_d5e16bcc977f1830d62a9d71e229ddee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7bcc59b35f3e7b2fe36972a339245c70.setIcon(icon_d5e16bcc977f1830d62a9d71e229ddee);
+        
+    
+        var popup_022cd62a077602cbea313ab67f1ae81f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fed6633006478fec49af446aeac9f30 = $(`<div id="html_1fed6633006478fec49af446aeac9f30" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1901 E Olympic Blvd<br><b>Type:</b> 16<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_022cd62a077602cbea313ab67f1ae81f.setContent(html_1fed6633006478fec49af446aeac9f30);
+            
+        
+
+        marker_7bcc59b35f3e7b2fe36972a339245c70.bindPopup(popup_022cd62a077602cbea313ab67f1ae81f)
+        ;
+
+        
+    
+    
+            var marker_00290b65bf6f80c6ac359df2394721b2 = L.marker(
+                [37.746841210073605, -122.39969368573513],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_bc9f58d90296322f40c0ba1f568fceb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00290b65bf6f80c6ac359df2394721b2.setIcon(icon_bc9f58d90296322f40c0ba1f568fceb4);
+        
+    
+        var popup_5bc76faf46432ea8500e66a31889f3e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d735b4ccb8bb9880653b8810bc96ab5 = $(`<div id="html_0d735b4ccb8bb9880653b8810bc96ab5" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 180-222 Napoleon St<br><b>Type:</b> $19.20 - $24.00<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_5bc76faf46432ea8500e66a31889f3e1.setContent(html_0d735b4ccb8bb9880653b8810bc96ab5);
+            
+        
+
+        marker_00290b65bf6f80c6ac359df2394721b2.bindPopup(popup_5bc76faf46432ea8500e66a31889f3e1)
+        ;
+
+        
+    
+    
+            var marker_d7b468839a4ac8e21419b9479999f605 = L.marker(
+                [37.75074214285714, -122.38845400000001],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_b6b73bb08f011a424257226b2d87e252 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7b468839a4ac8e21419b9479999f605.setIcon(icon_b6b73bb08f011a424257226b2d87e252);
+        
+    
+        var popup_ea013ba44a076c8596b510a8fb84ec64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6523fe6f6a8007e744262653f5dcba6e = $(`<div id="html_6523fe6f6a8007e744262653f5dcba6e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1661 Tennessee St<br><b>Type:</b> 45<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_ea013ba44a076c8596b510a8fb84ec64.setContent(html_6523fe6f6a8007e744262653f5dcba6e);
+            
+        
+
+        marker_d7b468839a4ac8e21419b9479999f605.bindPopup(popup_ea013ba44a076c8596b510a8fb84ec64)
+        ;
+
+        
+    
+    
+            var marker_68e0d59705d5070a65b0ae34790f6c28 = L.marker(
+                [37.7641415, -122.38836291029324],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_c522c06999d4a92c31b973dc2b8b4bb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_68e0d59705d5070a65b0ae34790f6c28.setIcon(icon_c522c06999d4a92c31b973dc2b8b4bb1);
+        
+    
+        var popup_3f644310866eb7e8e88d62f9f032fde6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cc9c88d5023a1ffcf4c7a398bc07c80 = $(`<div id="html_2cc9c88d5023a1ffcf4c7a398bc07c80" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 457 Mariposa St<br><b>Type:</b> 21<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_3f644310866eb7e8e88d62f9f032fde6.setContent(html_2cc9c88d5023a1ffcf4c7a398bc07c80);
+            
+        
+
+        marker_68e0d59705d5070a65b0ae34790f6c28.bindPopup(popup_3f644310866eb7e8e88d62f9f032fde6)
+        ;
+
+        
+    
+    
+            var marker_4fb286dd04151ebd6270f6ce6225b066 = L.marker(
+                [37.7502334, -122.3984522342459],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_690ec336c7dccf94f6aa36ed026ae0d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fb286dd04151ebd6270f6ce6225b066.setIcon(icon_690ec336c7dccf94f6aa36ed026ae0d7);
+        
+    
+        var popup_abab91d1e290cbb59f350c0c20b058d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a71ebc0bbb4b83f386119791af5b7bd = $(`<div id="html_9a71ebc0bbb4b83f386119791af5b7bd" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1950-2190 Cesar Chavez<br><b>Type:</b> 24<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_abab91d1e290cbb59f350c0c20b058d6.setContent(html_9a71ebc0bbb4b83f386119791af5b7bd);
+            
+        
+
+        marker_4fb286dd04151ebd6270f6ce6225b066.bindPopup(popup_abab91d1e290cbb59f350c0c20b058d6)
+        ;
+
+        
+    
+    
+            var marker_5af922ff277dc4fb722c83fbdf06646d = L.marker(
+                [37.748215450000004, -122.4136245],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_058c84ef5cdaf2b91e74da7b4e88e759 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5af922ff277dc4fb722c83fbdf06646d.setIcon(icon_058c84ef5cdaf2b91e74da7b4e88e759);
+        
+    
+        var popup_d7a2365095909c4e53220be1607a9816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c988b17e7c320fdc2fac709acc4f47b = $(`<div id="html_0c988b17e7c320fdc2fac709acc4f47b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 701-745 Cesar Chavez St<br><b>Type:</b> 13.08<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_d7a2365095909c4e53220be1607a9816.setContent(html_0c988b17e7c320fdc2fac709acc4f47b);
+            
+        
+
+        marker_5af922ff277dc4fb722c83fbdf06646d.bindPopup(popup_d7a2365095909c4e53220be1607a9816)
+        ;
+
+        
+    
+    
+            var marker_041c9c2092cd6978849a049f62f694ac = L.marker(
+                [37.779953, -122.398416],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_3383c1a0e3e9242c34509cfd12ed12eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_041c9c2092cd6978849a049f62f694ac.setIcon(icon_3383c1a0e3e9242c34509cfd12ed12eb);
+        
+    
+        var popup_db939e143baed4c2ab10705f1dd44af5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_922af0a0e7732a196430ab2708f8f8be = $(`<div id="html_922af0a0e7732a196430ab2708f8f8be" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 475 4th St<br><b>Type:</b> 18.6<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_db939e143baed4c2ab10705f1dd44af5.setContent(html_922af0a0e7732a196430ab2708f8f8be);
+            
+        
+
+        marker_041c9c2092cd6978849a049f62f694ac.bindPopup(popup_db939e143baed4c2ab10705f1dd44af5)
+        ;
+
+        
+    
+    
+            var marker_ba6b2ac336149f6bdb44e4507a28fcfd = L.marker(
+                [37.734693873220394, -122.3905053791299],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_07c7a5966b655296f408d2e0df47cf5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ba6b2ac336149f6bdb44e4507a28fcfd.setIcon(icon_07c7a5966b655296f408d2e0df47cf5b);
+        
+    
+        var popup_d84ff70d9437615417345841c2972e04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fcb1e0d0673a8f4d08d211e5d042b83 = $(`<div id="html_3fcb1e0d0673a8f4d08d211e5d042b83" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 2001-2003 Oakdale Ave<br><b>Type:</b> 22.2<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_d84ff70d9437615417345841c2972e04.setContent(html_3fcb1e0d0673a8f4d08d211e5d042b83);
+            
+        
+
+        marker_ba6b2ac336149f6bdb44e4507a28fcfd.bindPopup(popup_d84ff70d9437615417345841c2972e04)
+        ;
+
+        
+    
+    
+            var marker_057cff73dd9e15a0ddfafbcad9a55d48 = L.marker(
+                [37.74471714285714, -122.38743648979592],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_a44fee1f8f31cf8a9e9da62c1b06c12a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_057cff73dd9e15a0ddfafbcad9a55d48.setIcon(icon_a44fee1f8f31cf8a9e9da62c1b06c12a);
+        
+    
+        var popup_061f60406a73350ef32d1ffda91bd102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63bbc9dd8e923b6dac4108b72676e3b3 = $(`<div id="html_63bbc9dd8e923b6dac4108b72676e3b3" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 3550 3rd St<br><b>Type:</b> 31.2<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_061f60406a73350ef32d1ffda91bd102.setContent(html_63bbc9dd8e923b6dac4108b72676e3b3);
+            
+        
+
+        marker_057cff73dd9e15a0ddfafbcad9a55d48.bindPopup(popup_061f60406a73350ef32d1ffda91bd102)
+        ;
+
+        
+    
+    
+            var marker_d956b1129cea9fa49b9010e389bd802d = L.marker(
+                [37.7431967, -122.4048625],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_183af8dee028b1cd4771cbf3da6b2a35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d956b1129cea9fa49b9010e389bd802d.setIcon(icon_183af8dee028b1cd4771cbf3da6b2a35);
+        
+    
+        var popup_be6f0b1c8333a011b4f02cc74c047a49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_081e7a20dc214561c36e909012802d9c = $(`<div id="html_081e7a20dc214561c36e909012802d9c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 293 Bayshore Blvd<br><b>Type:</b> 24<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_be6f0b1c8333a011b4f02cc74c047a49.setContent(html_081e7a20dc214561c36e909012802d9c);
+            
+        
+
+        marker_d956b1129cea9fa49b9010e389bd802d.bindPopup(popup_be6f0b1c8333a011b4f02cc74c047a49)
+        ;
+
+        
+    
+    
+            var marker_064cea797802e1848acb4470eeaf91bb = L.marker(
+                [37.73852695, -122.40333360263622],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_6a933b9cd26fe3d8605722ccbea62a3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_064cea797802e1848acb4470eeaf91bb.setIcon(icon_6a933b9cd26fe3d8605722ccbea62a3a);
+        
+    
+        var popup_6a8ba56ef25486db004757797b31b5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f4a8f4c19a9a7aace680de81ed92b6d = $(`<div id="html_4f4a8f4c19a9a7aace680de81ed92b6d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 2280 Shafter Ave<br><b>Type:</b> 22.68<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_6a8ba56ef25486db004757797b31b5d7.setContent(html_4f4a8f4c19a9a7aace680de81ed92b6d);
+            
+        
+
+        marker_064cea797802e1848acb4470eeaf91bb.bindPopup(popup_6a8ba56ef25486db004757797b31b5d7)
+        ;
+
+        
+    
+    
+            var marker_9657000cec7aef2173e8159e05d0ba47 = L.marker(
+                [37.771587049999994, -122.41042081615169],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_da0f9395a37a3d9a9b49c699706c7184 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9657000cec7aef2173e8159e05d0ba47.setIcon(icon_da0f9395a37a3d9a9b49c699706c7184);
+        
+    
+        var popup_5ef7d25a25cb270d4d0613814b8a9361 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27ad7acbac2aa60a931cd0b1a0b23b51 = $(`<div id="html_27ad7acbac2aa60a931cd0b1a0b23b51" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 222 Dore St<br><b>Type:</b> 30<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_5ef7d25a25cb270d4d0613814b8a9361.setContent(html_27ad7acbac2aa60a931cd0b1a0b23b51);
+            
+        
+
+        marker_9657000cec7aef2173e8159e05d0ba47.bindPopup(popup_5ef7d25a25cb270d4d0613814b8a9361)
+        ;
+
+        
+    
+    
+            var marker_dbaa3a0bf8a36b9bb172e550627e56d4 = L.marker(
+                [37.768772591836736, -122.41768916326531],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_9edae5cee94aaefab7a73c4aed99d8f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dbaa3a0bf8a36b9bb172e550627e56d4.setIcon(icon_9edae5cee94aaefab7a73c4aed99d8f9);
+        
+    
+        var popup_2a4cd92dde44b274d8c7f31c5eaff2fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_981f783b9018447d6e6eebe1dfb797b5 = $(`<div id="html_981f783b9018447d6e6eebe1dfb797b5" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 245 S Van Ness Ave<br><b>Type:</b> 33<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_2a4cd92dde44b274d8c7f31c5eaff2fd.setContent(html_981f783b9018447d6e6eebe1dfb797b5);
+            
+        
+
+        marker_dbaa3a0bf8a36b9bb172e550627e56d4.bindPopup(popup_2a4cd92dde44b274d8c7f31c5eaff2fd)
+        ;
+
+        
+    
+    
+            var marker_6d79a1e93d47a837c15ba8fb27f46c55 = L.marker(
+                [37.769474244897964, -122.41602967346938],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_4aa4e13fbf8e2337ef5145fc7ce20043 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d79a1e93d47a837c15ba8fb27f46c55.setIcon(icon_4aa4e13fbf8e2337ef5145fc7ce20043);
+        
+    
+        var popup_1687f40628b2f190dd065ca412f74cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7baaad4b635518b3b3485ae3d847c141 = $(`<div id="html_7baaad4b635518b3b3485ae3d847c141" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 189 13th St<br><b>Type:</b> 18.84<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_1687f40628b2f190dd065ca412f74cd9.setContent(html_7baaad4b635518b3b3485ae3d847c141);
+            
+        
+
+        marker_6d79a1e93d47a837c15ba8fb27f46c55.bindPopup(popup_1687f40628b2f190dd065ca412f74cd9)
+        ;
+
+        
+    
+    
+            var marker_39f04c0ad1d16b1c205a043aa6d3ca0a = L.marker(
+                [37.7246361, -122.3889015],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_d95f655bb6050b973674bb43415eb5cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_39f04c0ad1d16b1c205a043aa6d3ca0a.setIcon(icon_d95f655bb6050b973674bb43415eb5cb);
+        
+    
+        var popup_25b6e344a1def5a8c168a3c0a5c1dc50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdfedb5e1886d63b397ec4c4468f609d = $(`<div id="html_bdfedb5e1886d63b397ec4c4468f609d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1430 Armstrong Ave<br><b>Type:</b> 15<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_25b6e344a1def5a8c168a3c0a5c1dc50.setContent(html_bdfedb5e1886d63b397ec4c4468f609d);
+            
+        
+
+        marker_39f04c0ad1d16b1c205a043aa6d3ca0a.bindPopup(popup_25b6e344a1def5a8c168a3c0a5c1dc50)
+        ;
+
+        
+    
+    
+            var marker_539bd5ef307f4008cbc12807ae416993 = L.marker(
+                [37.738986, -122.397877],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_4fb668e16214b2c68ff6c2e350f133ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_539bd5ef307f4008cbc12807ae416993.setIcon(icon_4fb668e16214b2c68ff6c2e350f133ef);
+        
+    
+        var popup_4c0a7ac6f0dbb23cb0f794fccb3c8558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c13a307e18ed36893b881e942fd6c9d9 = $(`<div id="html_c13a307e18ed36893b881e942fd6c9d9" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 2000 Oakdale Ave<br><b>Type:</b> 19.8<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_4c0a7ac6f0dbb23cb0f794fccb3c8558.setContent(html_c13a307e18ed36893b881e942fd6c9d9);
+            
+        
+
+        marker_539bd5ef307f4008cbc12807ae416993.bindPopup(popup_4c0a7ac6f0dbb23cb0f794fccb3c8558)
+        ;
+
+        
+    
+    
+            var marker_2962abe56c193c227a925cc6f9331cb6 = L.marker(
+                [37.737155217391305, -122.40394256521739],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_4fd0a14b0463d9700c281f0fc1fc48a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2962abe56c193c227a925cc6f9331cb6.setIcon(icon_4fd0a14b0463d9700c281f0fc1fc48a1);
+        
+    
+        var popup_298305a2c3384bd251bf3e4a0c4a4f08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6976df3265992612a315c025dd47edaf = $(`<div id="html_6976df3265992612a315c025dd47edaf" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 70 Elmira St<br><b>Type:</b> 27<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_298305a2c3384bd251bf3e4a0c4a4f08.setContent(html_6976df3265992612a315c025dd47edaf);
+            
+        
+
+        marker_2962abe56c193c227a925cc6f9331cb6.bindPopup(popup_298305a2c3384bd251bf3e4a0c4a4f08)
+        ;
+
+        
+    
+    
+            var marker_a0b46874697b70bd62f80c844d961bae = L.marker(
+                [37.74371635, -122.38601485000001],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_be56b6895a258d21a9263b3bda9d4648 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0b46874697b70bd62f80c844d961bae.setIcon(icon_be56b6895a258d21a9263b3bda9d4648);
+        
+    
+        var popup_c98fe0a72c5713edf5e859b8c33edc77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27621890bb5a1ba92882ea9bddfb5303 = $(`<div id="html_27621890bb5a1ba92882ea9bddfb5303" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1555 Burke Ave<br><b>Type:</b> 21<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_c98fe0a72c5713edf5e859b8c33edc77.setContent(html_27621890bb5a1ba92882ea9bddfb5303);
+            
+        
+
+        marker_a0b46874697b70bd62f80c844d961bae.bindPopup(popup_c98fe0a72c5713edf5e859b8c33edc77)
+        ;
+
+        
+    
+    
+            var marker_45c07251b4ac62e6cc118c749d654030 = L.marker(
+                [37.743723900000006, -122.39543956832796],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_3268b5135be037791d99b6909f45f491 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_45c07251b4ac62e6cc118c749d654030.setIcon(icon_3268b5135be037791d99b6909f45f491);
+        
+    
+        var popup_75005a2a280f85a1b6d5dbb7ebe67c99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8b5f5b4b72dae14b5ff8ed89af5639a = $(`<div id="html_c8b5f5b4b72dae14b5ff8ed89af5639a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1976 Innes Ave<br><b>Type:</b> 27<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_75005a2a280f85a1b6d5dbb7ebe67c99.setContent(html_c8b5f5b4b72dae14b5ff8ed89af5639a);
+            
+        
+
+        marker_45c07251b4ac62e6cc118c749d654030.bindPopup(popup_75005a2a280f85a1b6d5dbb7ebe67c99)
+        ;
+
+        
+    
+    
+            var marker_7f0cc9c0f57dcab6ed84bafcae06306d = L.marker(
+                [37.7379799, -122.40350066415178],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_9fcd7954cc3d3fd7527ecdb36c4dbc3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7f0cc9c0f57dcab6ed84bafcae06306d.setIcon(icon_9fcd7954cc3d3fd7527ecdb36c4dbc3d);
+        
+    
+        var popup_511f9cab8b14f16b36ec8848f71e9e3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11d0ba8cad26c5aaa1d21e0aef0ac66e = $(`<div id="html_11d0ba8cad26c5aaa1d21e0aef0ac66e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 2277 Shafter Ave<br><b>Type:</b> 21<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_511f9cab8b14f16b36ec8848f71e9e3d.setContent(html_11d0ba8cad26c5aaa1d21e0aef0ac66e);
+            
+        
+
+        marker_7f0cc9c0f57dcab6ed84bafcae06306d.bindPopup(popup_511f9cab8b14f16b36ec8848f71e9e3d)
+        ;
+
+        
+    
+    
+            var marker_fadc5ca2e7a38b142641bbf33ae4bff3 = L.marker(
+                [37.764150040816325, -122.39029308163265],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_dfdb96e3fd07e3a220a37587c761363e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fadc5ca2e7a38b142641bbf33ae4bff3.setIcon(icon_dfdb96e3fd07e3a220a37587c761363e);
+        
+    
+        var popup_c0ba8d2e80950b84db62e8249e063f93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_686f8b985a1921b40e50344a47faac65 = $(`<div id="html_686f8b985a1921b40e50344a47faac65" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 645 Mariposa St<br><b>Type:</b> 11<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_c0ba8d2e80950b84db62e8249e063f93.setContent(html_686f8b985a1921b40e50344a47faac65);
+            
+        
+
+        marker_fadc5ca2e7a38b142641bbf33ae4bff3.bindPopup(popup_c0ba8d2e80950b84db62e8249e063f93)
+        ;
+
+        
+    
+    
+            var marker_f30511cc5a0dc7ce5ff6b96f8b610210 = L.marker(
+                [37.781495, -122.41896433333334],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_86d75de5cfb7a3f8e6f2f94a6b8cdc98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f30511cc5a0dc7ce5ff6b96f8b610210.setIcon(icon_86d75de5cfb7a3f8e6f2f94a6b8cdc98);
+        
+    
+        var popup_2d087bd18f817846369116d233ab5f81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69f6b085eb5af9a988b9d1d464505072 = $(`<div id="html_69f6b085eb5af9a988b9d1d464505072" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 505 Polk St<br><b>Type:</b> 24<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_2d087bd18f817846369116d233ab5f81.setContent(html_69f6b085eb5af9a988b9d1d464505072);
+            
+        
+
+        marker_f30511cc5a0dc7ce5ff6b96f8b610210.bindPopup(popup_2d087bd18f817846369116d233ab5f81)
+        ;
+
+        
+    
+    
+            var marker_40ac8ba9698c302719fccd5afc6693ab = L.marker(
+                [37.746841210073605, -122.39969368573513],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_41ddb684f2b9c192653bc6bc3f36b8ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40ac8ba9698c302719fccd5afc6693ab.setIcon(icon_41ddb684f2b9c192653bc6bc3f36b8ce);
+        
+    
+        var popup_d6779bfd13f486279aba508dcc38d318 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ae05e7b5df2f46340189d2cc295cb27 = $(`<div id="html_3ae05e7b5df2f46340189d2cc295cb27" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 180-222 Napoleon St<br><b>Type:</b> $19.20 - $24.00<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_d6779bfd13f486279aba508dcc38d318.setContent(html_3ae05e7b5df2f46340189d2cc295cb27);
+            
+        
+
+        marker_40ac8ba9698c302719fccd5afc6693ab.bindPopup(popup_d6779bfd13f486279aba508dcc38d318)
+        ;
+
+        
+    
+    
+            var marker_bd441f55f5b80acac87105e6ceca4392 = L.marker(
+                [37.75074214285714, -122.38845400000001],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_0d99baa6ef406762b4301c0676f923d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd441f55f5b80acac87105e6ceca4392.setIcon(icon_0d99baa6ef406762b4301c0676f923d6);
+        
+    
+        var popup_6cb220e8c7733d8f398fc911e3d0b914 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4dad50039585dc482236b550f183f2e = $(`<div id="html_d4dad50039585dc482236b550f183f2e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1661 Tennessee St<br><b>Type:</b> 45<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_6cb220e8c7733d8f398fc911e3d0b914.setContent(html_d4dad50039585dc482236b550f183f2e);
+            
+        
+
+        marker_bd441f55f5b80acac87105e6ceca4392.bindPopup(popup_6cb220e8c7733d8f398fc911e3d0b914)
+        ;
+
+        
+    
+    
+            var marker_c1b58a95376412afdaa3a6a89744267d = L.marker(
+                [37.7641415, -122.38836291029324],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_bb8962b1c7f58ddaee14c7b91ec9c13c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c1b58a95376412afdaa3a6a89744267d.setIcon(icon_bb8962b1c7f58ddaee14c7b91ec9c13c);
+        
+    
+        var popup_7ea36cf9c4e0fab1d31ce58a69331752 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d0962816d6530a21b2454eb6ba0a6d7 = $(`<div id="html_0d0962816d6530a21b2454eb6ba0a6d7" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 457 Mariposa St<br><b>Type:</b> 21<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_7ea36cf9c4e0fab1d31ce58a69331752.setContent(html_0d0962816d6530a21b2454eb6ba0a6d7);
+            
+        
+
+        marker_c1b58a95376412afdaa3a6a89744267d.bindPopup(popup_7ea36cf9c4e0fab1d31ce58a69331752)
+        ;
+
+        
+    
+    
+            var marker_b5e963505486826131522f6685a60c42 = L.marker(
+                [37.7502334, -122.3984522342459],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_0dec6ee05409d2dc220332352a44d1b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5e963505486826131522f6685a60c42.setIcon(icon_0dec6ee05409d2dc220332352a44d1b1);
+        
+    
+        var popup_9510b174b5f5244e867e8f9500bb9c59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce4e8bb8e800f18bb21f48a37482ad22 = $(`<div id="html_ce4e8bb8e800f18bb21f48a37482ad22" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 1950-2190 Cesar Chavez<br><b>Type:</b> 24<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_9510b174b5f5244e867e8f9500bb9c59.setContent(html_ce4e8bb8e800f18bb21f48a37482ad22);
+            
+        
+
+        marker_b5e963505486826131522f6685a60c42.bindPopup(popup_9510b174b5f5244e867e8f9500bb9c59)
+        ;
+
+        
+    
+    
+            var marker_28349031058ff1c744f8de07616cccfd = L.marker(
+                [37.748215450000004, -122.4136245],
+                {}
+            ).addTo(marker_cluster_2681843ed051e43370a2cb37db28c9b5);
+        
+    
+            var icon_d29864f7dc8f687cc62ff23c80252293 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_28349031058ff1c744f8de07616cccfd.setIcon(icon_d29864f7dc8f687cc62ff23c80252293);
+        
+    
+        var popup_14ede0d41a13f3039939194e700f14e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04830bb9f8093775ec65de7eb40d7758 = $(`<div id="html_04830bb9f8093775ec65de7eb40d7758" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 701-745 Cesar Chavez St<br><b>Type:</b> 13.08<br><b>Data:</b> Warehouse</div>`)[0];
+                popup_14ede0d41a13f3039939194e700f14e1.setContent(html_04830bb9f8093775ec65de7eb40d7758);
+            
+        
+
+        marker_28349031058ff1c744f8de07616cccfd.bindPopup(popup_14ede0d41a13f3039939194e700f14e1)
+        ;
+
+        
+    
+    
+            marker_cluster_2681843ed051e43370a2cb37db28c9b5.addTo(map_6529b24d94ae65a885d19702a823873d);
+        
+</script>
+</html>
